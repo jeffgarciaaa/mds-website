@@ -15,9 +15,9 @@ const Header = () => {
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-black border-b border-white/10 shadow-sm">
-      <div className="container-narrow flex items-center justify-between px-4 md:px-8" style={{ height: '60px' }}>
+      <div className="container-narrow flex items-center justify-between px-4 md:px-8" style={{ height: '100px' }}>
         <a href="#" className="flex items-center">
-          <img src={mdsLogo} alt="Medical Device Services" style={{ height: '50px', width: 'auto' }} />
+          <img src={mdsLogo} alt="Medical Device Services" style={{ height: '90px', width: 'auto' }} />
         </a>
 
         <nav className="hidden md:flex items-center gap-8">
