@@ -1,6 +1,6 @@
 import { Phone, Menu, X } from "lucide-react";
 import { useState } from "react";
-import mdsLogo from "@/assets/mds-logo-clean.svg";
+import mdsLogo from "@/assets/mds-logo-final.png";
 
 const Header = () => {
   const [mobileOpen, setMobileOpen] = useState(false);
@@ -14,7 +14,7 @@ const Header = () => {
   ];
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-black/80 backdrop-blur-sm border-b border-white/10 shadow-sm" style={{ overflow: 'visible' }}>
+    <header className="fixed top-0 left-0 right-0 z-50 bg-black border-b border-white/10 shadow-sm" style={{ overflow: 'visible' }}>
       <div className="container-narrow flex items-center justify-between px-4 md:px-8" style={{ height: '80px' }}>
         <a href="#" className="flex items-center" style={{ marginTop: '10px' }}>
           <img src={mdsLogo} alt="Medical Device Services" style={{ height: '160px', width: 'auto' }} />
