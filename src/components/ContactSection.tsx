@@ -16,7 +16,7 @@ const ContactSection = () => {
     e.preventDefault();
     setSubmitting(true);
     try {
-      const response = await fetch("https://formspree.io/f/mjgabdll", {
+      const response = await fetch("https://formspree.io/f/mykbozad", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData),
